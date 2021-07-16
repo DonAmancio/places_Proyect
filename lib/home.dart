@@ -22,7 +22,7 @@ class MyHome extends StatelessWidget{
             right: 30
         ),
         height: 80,
-        child: Review("assets/images/persona1.jpg","Don Amancio","1 review - 3 photos",2,"Me gusta el campo.")
+        child: Review("assets/images/persona1.jpg","Don Amancio","1 review - 3 photos",4,"Me gusta el campo.")
     );
 
 
