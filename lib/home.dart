@@ -1,13 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:miproyecto/review.dart';
-
+import 'review.dart';
 import 'description_place.dart';
 
 class MyHome extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    final descriptionplace = Container(
+    final description_place = Container(
       margin: EdgeInsets.only(
           top: 250,
           left: 30,
@@ -23,7 +22,7 @@ class MyHome extends StatelessWidget{
             right: 30
         ),
         height: 80,
-        child: Review("assets/images/persona1.jpg","Don Amancio","1 review - 3 photos",2,"Excelente lugar para visitar.")
+        child: Review("assets/images/persona1.jpg","Don Amancio","1 review - 3 photos",2,"Me gusta el campo.")
     );
 
 
