@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:places_proyecto/gradient_back.dart';
 import 'package:places_proyecto/review_list.dart';
 import 'review.dart';
 import 'description_place.dart';
@@ -42,7 +43,8 @@ class MyHome extends StatelessWidget{
       ),
       body: Stack(
         children: <Widget>[
-          listView
+          GradientBack()
+          //
         ],
       ),
     );
