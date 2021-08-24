@@ -12,7 +12,7 @@ class MyHome extends StatelessWidget{
   Widget build(BuildContext context) {
     final description_place = Container(
       margin: EdgeInsets.only(
-          top: 50,
+          top: 300,
           left: 30,
           right: 30
       ),
@@ -38,14 +38,10 @@ class MyHome extends StatelessWidget{
 
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-            "My places"
-        ),
-      ),
       body: Stack(
         children: <Widget>[
-          CardImage("assets/images/lugar.jpg")
+          listView,
+            HomeAppBar("Popular")
           //
         ],
       ),

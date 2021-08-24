@@ -52,6 +52,11 @@ flutter:
      - assets/images/persona4.jpg
      - assets/images/persona5.jpg
      - assets/images/lugar.jpg
+     - assets/images/lugar2.jpg
+     - assets/images/lugar3.jpg
+     - assets/images/lugar4.jpg
+     - assets/images/lugar5.jpg
+     - assets/images/lugar6.jpg
 
   #   - images/a_dot_ham.jpeg
 
