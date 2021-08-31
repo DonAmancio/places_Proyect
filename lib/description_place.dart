@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:places_proyecto/rounded_button.dart';
 
 class DescriptionPlace extends StatelessWidget{
   //variables
@@ -78,9 +79,11 @@ class DescriptionPlace extends StatelessWidget{
     );
 
     final descriptionplace = Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         filatitulo,
-        descripcion
+        descripcion,
+        RoundedButton("Navi")
       ],
     );
 
